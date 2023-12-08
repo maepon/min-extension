@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "最小限のChrome拡張機能",
+  "version": "1.0",
+  "description": "ページ上のHTMLを変更する最小限のChrome拡張機能",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
